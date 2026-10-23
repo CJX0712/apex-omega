@@ -1,0 +1,18 @@
+{
+  "name": "apex-omega",
+  "version": "1.0.0",
+  "description": "APEX-OMEGA · 世界旗舰 AI 合流系统 —— 真实大模型(llama.cpp) × 1024 微指令 ISA × 可证门禁",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/run.js",
+    "verify": "node test/run.js",
+    "serve": "node scripts/serve.mjs",
+    "build": "node tools/build.js"
+  },
+  "author": "晨星",
+  "license": "MIT",
+  "dependencies": {
+    "node-llama-cpp": "3.22.2"
+  }
+}
